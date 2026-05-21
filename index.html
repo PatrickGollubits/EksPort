@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PG – Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- ── NAVIGATION ── -->
+    <header>
+      <nav>
+        <a href="#" class="logo">PG</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ── HERO ── -->
+    <section id="hero">
+      <div class="hero-text">
+        <span class="hero-subtitle">Multimediadesigner</span>
+        <h1>Design with purpose and <span class="accent">Passion</span></h1>
+        <div class="hero-buttons">
+          <a href="#portfolio" class="btn btn-primary">Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section id="about">
+      <h2>About me</h2>
+      <div class="about-content">
+        <div class="about-col">
+          <p>Patrick Gollubits - Multimediadesigner <br> I am passionate about sports and design. Ever since I was a child, I have followed Odense Boldklub and still do to this day. The club is a part of who I am.</p>
+        </div>
+        <div class="about-col">
+          <p>With a background in the military and three deployments (One as a leader). I have developed strong skills in leadership, communication, and decision-making. You can expect a collaboration with a strong and dedicated profile.</p>
+        </div>
+        <div class="about-col">
+          <p>What sets me apart? I bring deep industry insight and am always up to date with the latest sports trends. With a long background as an active athlete, I truly understand the culture. Furthermore, my experience in leadership, entrepreneurship, and international work means I am well-prepared for, and experienced with, traveling abroad.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section id="portfolio">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card" data-caption="Original photos. Matchday vibes. Everyday media content."><img src="./assets/images/projects/obfan.webp" alt="Egne fotos, Vibes op til kampdag, Hverdags Medie billede." /></div>
+        <div class="project-card project-card--video" data-caption="Super Saiyan Fiete Arp - Created using Adobe After Effects and Premiere Rush. This is a small showcase of what I can achieve with video editing in a very short amount of time."><video src="./assets/images/projects/OB.mp4" muted playsinline loop></video></div>
+        <div class="project-card"><img src="./assets/images/projects/obaf.webp" alt="Multiple masking techniques in Photoshop combined with additional visual elements to tell a story through a single image." /></div>
+        <div class="project-card"><img src="./assets/images/projects/obtrøje.webp" alt="Elements cut out and placed onto a different background in Photoshop. I photographed the jersey myself and integrated it into a completely new scene after masking it out." /></div>
+        <div class="project-card"><img src="./assets/images/projects/arp.webp" alt="Football trading cards are extremely popular right now. Even though major companies like Topps and Panini do not have the rights to the Danish Superliga, that should not stop us from creating amazing cards. This card was fully designed using pieces from my own collection and personal photography." /></div>
+        <div class="project-card"><img src="./assets/images/projects/kampdag.webp" alt="Matchday Poster for the Final home game of the season vs Vejle BK. " /></div>
+      </div>
+    </section>
+
+    <!-- ── SLIDER ── -->
+    <section id="slider">
+      <h2>Showcase</h2>
+      <div class="slider-container">
+        <div class="slider-viewport">
+          <div class="slider-track">
+
+            <div class="slide">
+              <img src="./assets/images/showcase/potter.mp4" alt="Project One" />
+              <div class="slide-text">
+                <h3>Patrick Potter</h3>
+                <p>I took an existing image, removed the original character, inserted myself, and added motion effects to bring an otherwise static image to life.</p>
+              </div>
+            </div>
+
+            <div class="slide slide--video">
+              <video class="slide-video" src="./assets/images/showcase/movingart.mp4" muted playsinline loop></video>
+              <div class="slide-text">
+                <h3>Moving art Workshop</h3>
+                <p>I combined two separate paintings into one composition and created a story through the final artwork.</p>
+              </div>
+            </div>
+
+            <div class="slide">
+              <img src="./assets/images/showcase/mig1.mp4" alt="Project Three" />
+              <div class="slide-text">
+                <h3>Short film</h3>
+                <p>A short video filmed by myself, edited and clipped to make it a great watch.</p>
+              </div>
+            </div>
+
+            <div class="slide">
+              <img src="./assets/images/showcase/zoo.webp" alt="Project Four" />
+              <div class="slide-text">
+                <h3>Installationsproject for Odense Zoo</h3>
+                <p>This project required a completely different approach, but it proved that a multimedia designer is not only creative online. We ended up creating not just one installation, but two. Odense Zoo seemed to love the result, and I was also responsible for presenting the final product.</p>
+              </div>
+            </div>
+
+            <div class="slide">
+              <img src="./assets/images/showcase/pizza.webp" alt="Project Five" />
+              <div class="slide-text">
+                <h3>Project 2</h3>
+                <p>This was the first larger-scale project that required working as part of a team. We redesigned a website, and the image shown is from the front page of the final result. It is currently a prototype made in Figma, but with the level I have reached today in my development, I would easily be able to turn it into a fully functional website coded from scratch.</p>
+              </div>
+            </div>
+
+          </div><!-- /.slider-track -->
+        </div><!-- /.slider-viewport -->
+        <button class="slider-btn slider-prev" aria-label="Previous slide">&#8249;</button>
+        <button class="slider-btn slider-next" aria-label="Next slide">&#8250;</button>
+      </div><!-- /.slider-container -->
+    </section>
+
+    <!-- ── CONTACT / FOOTER ── -->
+    <footer id="contact">
+      <div class="footer-bg"></div>
+      <div class="footer-right">
+        <div class="footer-cta">
+          <span class="footer-pre">Ready for a collab?</span>
+          <h2>Lets create something <span class="accent">Powerful</span> together.</h2>
+          <a href="mailto:" class="btn btn-primary footer-btn">Write to me &rarr;</a>
+        </div>
+        <div class="footer-contacts">
+        <div class="footer-contact-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="M2 7l10 7 10-7"/>
+          </svg>
+          <div>
+            <span class="footer-contact-label">Email</span>
+            <a href="mailto:patrickgollubits@hotmail.com" class="footer-contact-value">patrickgollubits@hotmail.com</a>
+          </div>
+        </div>
+        <div class="footer-contact-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07A19.5 19.5 0 0 1 5.45 13a19.86 19.86 0 0 1-3.07-8.67A2 2 0 0 1 4.36 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          <div>
+            <span class="footer-contact-label">Phone</span>
+            <a href="tel:+4512345678" class="footer-contact-value">+45 41 83 23 78</a>
+          </div>
+        </div>
+        <div class="footer-contact-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+          <div>
+            <span class="footer-contact-label">Location</span>
+            <span class="footer-contact-value">Odense, Danmark</span>
+          </div>
+        </div>
+      </div> <!-- /.footer-contacts -->
+      </div> <!-- /.footer-right -->
+    </footer>
+
+    <!-- ── MODAL ── -->
+    <div id="project-modal" class="modal" aria-modal="true" role="dialog" hidden>
+      <div class="modal-backdrop"></div>
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Close">&times;</button>
+        <video class="modal-video" controls muted playsinline></video>
+        <img class="modal-img is-hidden" src="#" alt="Project image">
+        <p class="modal-caption"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
