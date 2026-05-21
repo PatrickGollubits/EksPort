@@ -9,13 +9,6 @@
 :root {
 
   /* ── Colors ─────────────────────────────────────────────────────────────────
-     'clr' is just a shorthand prefix for "color", used to keep variable names
-     short without being cryptic.
-
-     The double-dash '--' is required CSS syntax for custom properties
-     (also called "CSS variables"). The '--' tells the browser "this is a
-     user-defined value, not a built-in property". You can then read it
-     anywhere with var(--name).
   */
   --clr-bg:        #0b0d14;   /* main dark background */
   --clr-bg-alt:    #0d1d3a;   /* about-section navy */
@@ -478,7 +471,7 @@ footer#contact {
   overflow: hidden;
 }
 
-/* Invisible sizer – gives the track a height equal to the active slide */
+
 .slider-track {
   position: relative;
   width: 100%;
@@ -613,7 +606,7 @@ footer#contact {
    DESKTOP  (≥ 1024px)
 ───────────────────────────────────────── */
 @media (min-width: 1024px) {
-  /* Nav – hide hamburger, show inline links */
+
   .nav-toggle {
     display: none;
   }
@@ -635,7 +628,7 @@ footer#contact {
     border: none;
   }
 
-  /* Hero */
+ 
   #hero {
     flex-direction: row;
     align-items: center;
@@ -670,12 +663,12 @@ footer#contact {
     padding-left: 0;
   }
 
-  /* Projects – 3 columns */
+
   .projects-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  /* Slider – wider cards with more visible peek */
+
   .slide,
   .slider-track::before {
     width: 58%;
@@ -705,7 +698,7 @@ footer#contact {
     font-size: 0.85rem;
   }
 
-  /* Footer – side by side */
+
   footer#contact {
     flex-direction: row;
     align-items: stretch;
